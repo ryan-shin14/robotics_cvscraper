@@ -1,0 +1,28 @@
+# Secrets — never commit these
+.env
+
+# Downloaded data — can be regenerated; large binary files
+data/raw/
+
+# Parsed output — can be regenerated
+data/parsed/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
